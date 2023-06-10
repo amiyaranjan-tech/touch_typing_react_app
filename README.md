@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Touch Typing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Touch Typing Website is a web application built using React and Bulma CSS, designed to help users improve their touch typing skills.
 
-## Available Scripts
+## Hosted on Netlify 
 
-In the project directory, you can run:
 
-### `npm start`
+### Functionality
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Touch Typing App provides the following functionality:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Practice typing: AS soon as you land on the webpage and click on start button the coundown starts from 300 seconds on the screen which represents 5 minutes of time and you get 500 words of random text displayed to type correctly. after typing each word when you press sapacebar the word disappers from input feild its coded that way so don't panic, just keep typing untill the timer runs out.
 
-### `npm test`
+Displaying WP5M and Accuracy: Once the countdown ends the number of words you typed and your accuracy gets displayed automatically.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+My Touch Typing relies on the following external dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React: The website is built using React, a popular JavaScript library for building user interfaces.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+random-words: random words is a npm module which is used to diplay 500 words of random text for practicing.
 
-### `npm run eject`
+Make sure to include these dependencies in your project by installing them via npm or yarn.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Note: Don't forget to include the necessary import statements for the required libraries in your project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The website offers a free platform to practice touch typing where one can improve their accuracy and speed.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Node.js: Make sure Node.js is installed on your machine
 
-### Code Splitting
+#### Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the repository:
 
-### Analyzing the Bundle Size
+`git clone https://github.com/amiyaranjan-tech/touch_typing_react_app.git`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Navigate to the project directory:
 
-### Making a Progressive Web App
+`cd touch_typing_react_app`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install the dependencies:
 
-### Advanced Configuration
+`npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Usage
 
-### Deployment
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+`npm start`
 
-### `npm run build` fails to minify
+Open your web browser and visit http://localhost:3000 to access the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Acknowledgements
+
+npm Documentation
+
+Bulma Documentation
+
+Create React App
