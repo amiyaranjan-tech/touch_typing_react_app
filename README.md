@@ -2,7 +2,7 @@
 
 This Touch Typing Website is a web application built using React and Bulma CSS, designed to help users improve their touch typing skills.
 
-## Hosted on Netlify 
+## Hosted on Netlify https://touchtyping-amiya.netlify.app/ 
 
 
 ### Functionality
