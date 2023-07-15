@@ -3,7 +3,7 @@ import { generate } from "random-words";
 import "./App.css";
 
 const NUMB_OF_WORDS = 500;
-const SECONDS = 300;
+const SECONDS = 60;
 
 function App() {
   const [words, setWords] = useState([]);
