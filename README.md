@@ -9,7 +9,7 @@ This Touch Typing Website is a web application built using React and Bulma CSS, 
 
 Touch Typing App provides the following functionality:
 
-Practice typing: AS soon as you land on the webpage and click on start button the coundown starts from 300 seconds on the screen which represents 5 minutes of time and you get 500 words of random text displayed to type correctly. after typing each word when you press sapacebar the word disappers from input feild its coded that way so don't panic, just keep typing untill the timer runs out.
+Practice typing: AS soon as you land on the webpage and click on start button the coundown starts from 60 seconds on the screen which represents 1 minutes of time and you get 200 words of random text displayed to type correctly. after typing each word when you press sapacebar the word disappers from input feild its coded that way so don't panic, remember spacebar shifts you to the next word so dont press spacebar without any reason simply follow the text just keep typing untill the timer runs out.
 
 Displaying WP5M and Accuracy: Once the countdown ends the number of words you typed and your accuracy gets displayed automatically.
 
@@ -20,7 +20,7 @@ My Touch Typing relies on the following external dependencies:
 
 React: The website is built using React, a popular JavaScript library for building user interfaces.
 
-random-words: random words is a npm module which is used to diplay 500 words of random text for practicing.
+random-words: random words is a npm module which is used to diplay 200 words of random text for practicing.
 
 Make sure to include these dependencies in your project by installing them via npm or yarn.
 
