@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { generate } from "random-words";
 import "./App.css";
 
-const NUMB_OF_WORDS = 500;
+const NUMB_OF_WORDS = 200;
 const SECONDS = 60;
 
 function App() {
@@ -162,7 +162,7 @@ function App() {
         <div className="section">
           <div className="columns">
             <div className="column has-text-centered">
-              <p className="is-size-5">Words per 5 minute:</p>
+              <p className="is-size-5">Words per minute:</p>
               <p className="has-text-black is-size-1">{correct}</p>
             </div>
             <div className="column has-text-centered">
